@@ -1,0 +1,23 @@
+<resources>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="proplens_primary_blue">#1D9BF0</color>
+    <color name="proplens_text_primary">#0F172A</color>
+    <color name="proplens_text_muted">#64748B</color>
+    <color name="proplens_card_surface">#F8FAFC</color>
+    <color name="proplens_border_light">#E2E8F0</color>
+    <color name="proplens_positive_green">#22C55E</color>
+    <color name="proplens_badge_green">#16A34A</color>
+    <color name="proplens_soft_blue">#E6F4FF</color>
+    <color name="proplens_error_red">#EF4444</color>
+    <color name="proplens_warning_amber">#F59E0B</color>
+    <color name="proplens_background_light">#F5F7F8</color>
+    <color name="proplens_background_gray">#F3F4F6</color>
+    <color name="proplens_slate_850">#151F28</color>
+    <color name="proplens_border_color">#E5E7EB</color>
+</resources>

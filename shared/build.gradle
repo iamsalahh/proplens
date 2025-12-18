@@ -1,0 +1,46 @@
+plugins {
+    id 'org.jetbrains.kotlin.multiplatform'
+    id 'com.android.library'
+}
+
+kotlin {
+    androidTarget()
+    jvmToolchain(17)
+
+    sourceSets {
+        commonMain {
+            dependencies {
+                // No external dependencies yet
+            }
+        }
+        commonTest {
+            dependencies {
+                implementation kotlin('test')
+            }
+        }
+        androidMain {
+            dependencies {
+                // No Android-specific dependencies yet
+            }
+        }
+        androidUnitTest {
+            dependencies {
+                implementation kotlin('test')
+            }
+        }
+    }
+}
+
+android {
+    namespace 'com.proplens.shared'
+    compileSdk 35
+
+    defaultConfig {
+        minSdk 24
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
